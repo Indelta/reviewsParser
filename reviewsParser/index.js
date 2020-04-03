@@ -32,7 +32,7 @@ const ch = html => {
     return data;
 }
 
-fs.readFile('getcredit.html', 'utf8', (err, data) => {
+fs.readFile('getcredit.htm', 'utf8', (err, data) => {
     if (err) console.log('Error parsing file');
     else {
         const resData = ch(data);
